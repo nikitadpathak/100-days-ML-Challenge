@@ -1,0 +1,43 @@
+Basics
+
+git clone repository_path
+    --> takes remote git repository and clones it locally by creating the folder with same name as repository name
+
+##### Happens in succession #####
+git status
+    --> tells us what file has been modified since the last time I pulled the changes remotely
+    --> Good way to check what I might want to include in my next push back to github
+    
+git add filename_to_add
+    --> adds the file to staged
+    
+git commit -m "message_you_want_to_put"
+    --> this commits the file to staged
+    --> Also add the message so that others can know what was committed
+    
+git push
+    --> to push the local changes to online repository
+####################################
+
+git pull
+    --> takes all the changes that are living on the repository remotely and gets them locally
+    --> Basically updates the local copy with online changes
+    
+Branch concept
+  --> When other members of my team are working on the same file and I don't want my work to interfere with other's work, we create a branch
+  
+  
+  - git branch
+      --> to know which branch I am on
+      
+  - git checkout -b branch_name_that_is_descriptive
+      --> Adds a new branch and switches to new branch that is created
+      --. names tells what changes we are going to make
+      
+  - git checkout branch_name
+      --> Switches to the branch name
+      
+  - git merge
+      --> merges branch with main branch
+  
+  
